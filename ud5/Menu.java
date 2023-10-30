@@ -17,7 +17,7 @@ public class Menu {
         System.out.println("2 - Restar");
         System.out.println("3 - Multiplicar");
         System.out.println("4 - Dividir");
-
+        
         int valorLeido = sc.nextInt();
 
         if (valorLeido >= 0 && valorLeido <= 4) {
@@ -32,5 +32,9 @@ public class Menu {
             imprimir();
         }
         return seleccion;
+    }
+
+    public double getNumeroValido(){
+        return 3.0;
     }
 }
