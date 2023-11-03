@@ -1,4 +1,4 @@
-package CD2023.ud5;
+package cd2023.ud5;
 
 public class App {
 
@@ -15,6 +15,7 @@ public class App {
 
         while (true) {
             int seleccion = menu.getSeleccionValida();
+            menu.resetSeleccion();
 
             switch (seleccion) {
                 case 0:

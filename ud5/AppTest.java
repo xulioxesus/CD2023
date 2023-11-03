@@ -1,4 +1,4 @@
-package CD2023.ud5;
+package cd2023.ud5;
 
 public class AppTest {
     public static void main(String[] args) {
