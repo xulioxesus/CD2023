@@ -1,9 +1,7 @@
-package CD2023.ud5;
-
 /**
  * Perrito
  */
-public class Perrito {
+public class Perrito implements Imprimible{
 
     // Atributos
 
@@ -31,5 +29,10 @@ public class Perrito {
             System.out.println("Guau Guau");
             i = i + 1;
         }
+    }
+
+    @Override
+    public void print() {
+        System.out.println("Soy perrito");
     }
 }
