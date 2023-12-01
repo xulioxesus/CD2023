@@ -1,8 +1,10 @@
-abstract class Animal {
+public class Animal {
 
-    public abstract void animalSound();
+    public void animalSound(){
+      System.out.println("Ruido...");
+    }
 
-    public void sleep() {
-      h
+    public void sleep(){
+      System.out.println("zzzz");
     }
   }  

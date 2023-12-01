@@ -13,6 +13,15 @@ public class Perrito implements Imprimible{
 
     // Métodos
 
+    public Perrito(String nome, String raza, String color, boolean chip, int numeroChip) {
+        
+        nome = nome;
+        raza = raza;
+        color = color;
+        chip = chip;
+        numeroChip = numeroChip;
+    }
+
     public void ladrar() {
         System.out.println("Guau Guau");
     }

@@ -1,10 +1,6 @@
-package cd2023.ud5;
-
 public class Calculadora {
 
-    
     private double resultado = 0;
-
     
     public double getResultado() {
         return resultado;

@@ -1,4 +1,4 @@
-public class Gato extends Animal implements Imprimible{
+public class Gato extends Animal implements Imprimible, IEnvenenable{
 
     @Override
     public void animalSound() {
@@ -19,6 +19,11 @@ public class Gato extends Animal implements Imprimible{
     @Override
     public void print() {
         System.out.println("Imprimindo gato...");
+    }
+
+    @Override
+    public void ConsumirVeneno() {
+        System.out.println("Miuauuu: morí");
     }
     
     

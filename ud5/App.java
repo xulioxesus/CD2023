@@ -5,6 +5,11 @@ public class App {
     private Menu menu;
     private Calculadora calculadora;
 
+    public App(Menu m, Calculadora c){
+        this.menu = m;
+        this.calculadora = c;
+    }
+
     public App(){
         menu = new Menu();
         calculadora = new Calculadora();
