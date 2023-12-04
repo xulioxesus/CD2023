@@ -10,6 +10,7 @@ public class CalculadoraTest {
         calc.setResultado(1000000);
 
         calc.sumar(5);
+        calc.sumar(5);
         calc.sumar(7);
         calc.imprimir();
 
