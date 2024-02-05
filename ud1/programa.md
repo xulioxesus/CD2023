@@ -9,3 +9,12 @@ Casos de uso:
 - O usuario pode gardar notas
 - O usuario pode borrar notas
 - O usuario pode imprimir en pdf as notas gardadas
+
+```bash
+git init
+```
+Devolvendo a consola:
+
+```bash
+Inicializando repositorio vacío...
+```

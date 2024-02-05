@@ -22,12 +22,12 @@ public class Perrito implements Imprimible{
         numeroChip = numeroChip;
     }
 
-    public void ladrar() {
-        System.out.println("Guau Guau");
+    public String ladrar() {
+        return "Guau Guau";
     }
 
-    public void durmir() {
-        System.out.println("Marcho durmir");
+    public String durmir() {
+        return "Marcho durmir";
     }
 
     public void pedirDeComer() {
